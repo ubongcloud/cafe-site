@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #8B4513;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1481833761820-0509d3217039') no-repeat center center/cover;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.menu-section, .about-section, .contact-section {
+    padding: 40px 0;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #8B4513;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#contact-form button {
+    padding: 10px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
